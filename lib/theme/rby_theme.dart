@@ -62,8 +62,8 @@ class RbyTheme {
         shape: shape.shape,
         color: colorScheme.surfaceVariant,
         margin: EdgeInsets.zero,
-      ),
-      dialogTheme: DialogTheme(shape: shape.shape),
+      ).data,
+      dialogTheme: DialogTheme(shape: shape.shape).data,
       snackBarTheme: SnackBarThemeData(
         elevation: 0,
         shape: shape.shape,
